@@ -14,7 +14,7 @@
 <body>
 <div class="w" id="logo">
     <div>
-    	<a href="http://47.107.81.63:8080">
+    	<a href="http://localhost:8082">
     		<img src="/images/flyfox-logo.gif" alt="飞狐商城" width="170" height="60"/>
     	</a> <b></b>
     </div>

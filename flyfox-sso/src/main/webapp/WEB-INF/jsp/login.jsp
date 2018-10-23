@@ -11,7 +11,7 @@
 <body>
 <div class="w">
     <div id="logo">
-    	<a href="http://47.107.81.63:8080" clstag="passport|keycount|login|01">
+    	<a href="http://localhost:8082" clstag="passport|keycount|login|01">
     		<img src="/images/flyfox-logo.gif" alt="飛狐" width="170" height="60"/>
     	</a><b></b>
    	</div>
@@ -81,7 +81,7 @@
 						console.log(data);
 						document.cookie=data.data;
 						if (redirectUrl == "") {
-							location.href = "http://47.107.81.63:8080";
+							location.href = "http://localhost:8082";
 						} else {
 							location.href = redirectUrl;
 						}
