@@ -1,0 +1,560 @@
+2018-10-22 08:20:48,712 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@124cce67]
+2018-10-22 08:20:48,713 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:48,713 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:48,713 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d93df9a] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:48,714 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:48,731 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:48,731 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:48,732 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 405(Long)
+2018-10-22 08:20:48,746 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
+2018-10-22 08:20:48,746 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d93df9a]
+2018-10-22 08:20:48,746 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:48,746 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:48,747 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@677e60c5] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:48,747 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:48,748 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:48,748 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:48,748 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 412(Long)
+2018-10-22 08:20:48,763 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
+2018-10-22 08:20:48,763 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@677e60c5]
+2018-10-22 08:20:48,763 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:48,764 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:48,764 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5230be7f] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:48,765 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:48,765 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:48,765 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:48,766 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 420(Long)
+2018-10-22 08:20:48,777 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
+2018-10-22 08:20:48,777 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5230be7f]
+2018-10-22 08:20:48,777 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:48,778 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:48,778 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2405c2b6] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:48,778 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:48,779 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:48,779 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:48,779 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 425(Long)
+2018-10-22 08:20:48,792 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 12
+2018-10-22 08:20:48,793 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2405c2b6]
+2018-10-22 08:20:48,793 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:48,793 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:48,793 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@606a8be4] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:48,794 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:48,794 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:48,794 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:48,795 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 438(Long)
+2018-10-22 08:20:48,808 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
+2018-10-22 08:20:48,808 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@606a8be4]
+2018-10-22 08:20:48,808 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:48,808 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:48,809 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@254609a8] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:48,809 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:48,810 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:48,810 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:48,810 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 439(Long)
+2018-10-22 08:20:48,823 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 16
+2018-10-22 08:20:48,823 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@254609a8]
+2018-10-22 08:20:48,823 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:48,823 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:48,824 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c764a9f] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:48,824 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:48,824 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:48,824 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:48,824 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 456(Long)
+2018-10-22 08:20:48,837 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 10
+2018-10-22 08:20:48,837 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c764a9f]
+2018-10-22 08:20:48,837 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:48,837 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:48,837 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ad1ea84] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:48,838 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:48,838 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:48,838 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:48,838 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 467(Long)
+2018-10-22 08:20:48,852 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
+2018-10-22 08:20:48,852 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ad1ea84]
+2018-10-22 08:20:48,852 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:48,852 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:48,852 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6509ec5a] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:48,853 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:48,853 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:48,853 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:48,854 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 474(Long)
+2018-10-22 08:20:48,915 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 11
+2018-10-22 08:20:48,915 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6509ec5a]
+2018-10-22 08:20:48,915 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:48,916 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:48,916 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e6a3d63] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:48,916 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:48,916 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:48,916 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:48,917 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 486(Long)
+2018-10-22 08:20:48,939 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 8
+2018-10-22 08:20:48,939 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e6a3d63]
+2018-10-22 08:20:48,939 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:48,940 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:48,940 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420cdfeb] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:48,940 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:48,941 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:48,941 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:48,941 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 495(Long)
+2018-10-22 08:20:48,957 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 12
+2018-10-22 08:20:48,958 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420cdfeb]
+2018-10-22 08:20:48,958 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:48,958 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:48,958 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ffc3228] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:48,958 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:48,959 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:48,959 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:48,959 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 496(Long)
+2018-10-22 08:20:48,975 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
+2018-10-22 08:20:48,975 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ffc3228]
+2018-10-22 08:20:48,976 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:48,976 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:48,976 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e0e0280] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:48,977 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:48,977 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:48,977 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:48,978 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 503(Long)
+2018-10-22 08:20:48,993 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
+2018-10-22 08:20:48,993 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e0e0280]
+2018-10-22 08:20:48,993 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:48,993 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:48,994 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12b56813] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:48,994 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:48,994 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:48,995 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:48,995 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 509(Long)
+2018-10-22 08:20:49,013 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 2
+2018-10-22 08:20:49,013 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12b56813]
+2018-10-22 08:20:49,014 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,014 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,014 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68b344cc] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,015 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,015 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,015 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,015 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 512(Long)
+2018-10-22 08:20:49,028 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
+2018-10-22 08:20:49,028 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68b344cc]
+2018-10-22 08:20:49,028 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,028 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,028 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ea7a092] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,029 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,029 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,029 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,030 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 516(Long)
+2018-10-22 08:20:49,044 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
+2018-10-22 08:20:49,044 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ea7a092]
+2018-10-22 08:20:49,044 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,045 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,045 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20e42c17] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,045 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,046 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,046 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,046 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 520(Long)
+2018-10-22 08:20:49,059 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
+2018-10-22 08:20:49,059 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20e42c17]
+2018-10-22 08:20:49,059 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,059 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,060 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@785849c8] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,060 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,060 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,060 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,061 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 525(Long)
+2018-10-22 08:20:49,073 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
+2018-10-22 08:20:49,073 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@785849c8]
+2018-10-22 08:20:49,074 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,074 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,074 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@8d93987] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,075 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,075 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,075 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,076 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 529(Long)
+2018-10-22 08:20:49,089 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
+2018-10-22 08:20:49,090 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@8d93987]
+2018-10-22 08:20:49,090 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,090 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,090 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@138bb487] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,091 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,091 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,091 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,091 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 534(Long)
+2018-10-22 08:20:49,103 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
+2018-10-22 08:20:49,103 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@138bb487]
+2018-10-22 08:20:49,103 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,103 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,103 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68d7b639] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,104 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,104 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,104 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,105 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 539(Long)
+2018-10-22 08:20:49,116 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
+2018-10-22 08:20:49,116 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68d7b639]
+2018-10-22 08:20:49,116 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,117 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,117 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cbe55c] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,117 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,117 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,117 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,118 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 543(Long)
+2018-10-22 08:20:49,129 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 2
+2018-10-22 08:20:49,129 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cbe55c]
+2018-10-22 08:20:49,130 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,130 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,130 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40519aea] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,130 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,131 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,131 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,131 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 546(Long)
+2018-10-22 08:20:49,144 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 11
+2018-10-22 08:20:49,144 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40519aea]
+2018-10-22 08:20:49,144 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,144 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,144 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31fdb3b4] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,145 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,145 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,146 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,146 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 558(Long)
+2018-10-22 08:20:49,158 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
+2018-10-22 08:20:49,158 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31fdb3b4]
+2018-10-22 08:20:49,158 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,158 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,158 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9985618] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,158 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,159 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,159 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,159 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 559(Long)
+2018-10-22 08:20:49,171 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 2
+2018-10-22 08:20:49,172 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9985618]
+2018-10-22 08:20:49,172 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,172 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,172 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53d9676] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,173 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,173 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,173 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,173 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 562(Long)
+2018-10-22 08:20:49,185 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
+2018-10-22 08:20:49,185 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53d9676]
+2018-10-22 08:20:49,185 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,185 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,185 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a65d946] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,186 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,186 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,186 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,186 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 567(Long)
+2018-10-22 08:20:49,199 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 12
+2018-10-22 08:20:49,199 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a65d946]
+2018-10-22 08:20:49,199 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,200 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,200 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5efd891f] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,200 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,200 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,200 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,201 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 580(Long)
+2018-10-22 08:20:49,214 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
+2018-10-22 08:20:49,214 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5efd891f]
+2018-10-22 08:20:49,214 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,214 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,214 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a27c8f1] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,215 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,215 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,215 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,215 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 581(Long)
+2018-10-22 08:20:49,227 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 9
+2018-10-22 08:20:49,227 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a27c8f1]
+2018-10-22 08:20:49,228 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,228 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,228 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c8230c3] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,228 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,228 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,229 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,229 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 591(Long)
+2018-10-22 08:20:49,245 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 12
+2018-10-22 08:20:49,245 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c8230c3]
+2018-10-22 08:20:49,245 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,245 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,246 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c5e1275] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,246 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,246 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,247 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,247 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 604(Long)
+2018-10-22 08:20:49,259 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 9
+2018-10-22 08:20:49,259 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c5e1275]
+2018-10-22 08:20:49,260 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,260 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,260 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c9774e4] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,260 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,260 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,260 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,261 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 614(Long)
+2018-10-22 08:20:49,274 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 10
+2018-10-22 08:20:49,275 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c9774e4]
+2018-10-22 08:20:49,275 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,275 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,275 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@220c27d7] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,275 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,275 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,276 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,276 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 625(Long)
+2018-10-22 08:20:49,288 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
+2018-10-22 08:20:49,288 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@220c27d7]
+2018-10-22 08:20:49,288 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,288 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,289 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10acb862] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,289 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,289 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,289 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,290 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 633(Long)
+2018-10-22 08:20:49,302 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
+2018-10-22 08:20:49,302 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10acb862]
+2018-10-22 08:20:49,302 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,302 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,302 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@187d47c0] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,303 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,303 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,303 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,303 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 634(Long)
+2018-10-22 08:20:49,316 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 13
+2018-10-22 08:20:49,317 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@187d47c0]
+2018-10-22 08:20:49,317 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,317 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,317 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6deab172] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,317 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,317 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,317 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,318 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 648(Long)
+2018-10-22 08:20:49,331 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 11
+2018-10-22 08:20:49,331 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6deab172]
+2018-10-22 08:20:49,331 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,331 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,331 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29e62d7e] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,332 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,332 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,332 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,332 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 660(Long)
+2018-10-22 08:20:49,345 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
+2018-10-22 08:20:49,345 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29e62d7e]
+2018-10-22 08:20:49,345 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,345 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,345 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d6456d] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,346 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,346 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,346 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,347 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 667(Long)
+2018-10-22 08:20:49,361 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 15
+2018-10-22 08:20:49,361 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d6456d]
+2018-10-22 08:20:49,362 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,362 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,362 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7332eec0] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,362 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,362 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,363 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,363 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 683(Long)
+2018-10-22 08:20:49,377 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
+2018-10-22 08:20:49,377 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7332eec0]
+2018-10-22 08:20:49,377 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,377 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,377 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b16ecb] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,378 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,378 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,378 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,378 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 691(Long)
+2018-10-22 08:20:49,390 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
+2018-10-22 08:20:49,391 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b16ecb]
+2018-10-22 08:20:49,391 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,391 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,391 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c2230a7] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,392 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,392 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,392 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,392 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 699(Long)
+2018-10-22 08:20:49,405 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
+2018-10-22 08:20:49,406 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c2230a7]
+2018-10-22 08:20:49,406 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,406 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,406 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10d35584] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,407 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,407 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,407 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,407 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 700(Long)
+2018-10-22 08:20:49,423 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 10
+2018-10-22 08:20:49,424 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10d35584]
+2018-10-22 08:20:49,424 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,424 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,424 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76e1fd06] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,425 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,425 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,425 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,425 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 711(Long)
+2018-10-22 08:20:49,437 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
+2018-10-22 08:20:49,438 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76e1fd06]
+2018-10-22 08:20:49,438 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,438 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,438 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10b9c6d8] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,439 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,439 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,439 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,439 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 718(Long)
+2018-10-22 08:20:49,451 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
+2018-10-22 08:20:49,451 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10b9c6d8]
+2018-10-22 08:20:49,451 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,451 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,452 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10b4587f] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,452 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,452 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,452 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,453 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 724(Long)
+2018-10-22 08:20:49,464 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 8
+2018-10-22 08:20:49,465 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10b4587f]
+2018-10-22 08:20:49,465 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,465 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,465 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23095d4] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,466 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,466 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,466 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,466 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 733(Long)
+2018-10-22 08:20:49,480 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
+2018-10-22 08:20:49,481 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23095d4]
+2018-10-22 08:20:49,481 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,482 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,482 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1130d18b] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,483 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,483 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,483 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,484 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 739(Long)
+2018-10-22 08:20:49,498 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 9
+2018-10-22 08:20:49,499 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1130d18b]
+2018-10-22 08:20:49,499 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,499 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,499 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ae3a195] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,499 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,500 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,500 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,500 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 749(Long)
+2018-10-22 08:20:49,512 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
+2018-10-22 08:20:49,512 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ae3a195]
+2018-10-22 08:20:49,512 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,512 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,512 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48fe546b] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,513 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,513 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,513 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,513 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 750(Long)
+2018-10-22 08:20:49,527 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 33
+2018-10-22 08:20:49,527 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48fe546b]
+2018-10-22 08:20:49,527 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,527 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,528 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2199ac1a] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,529 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,529 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,529 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,529 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 784(Long)
+2018-10-22 08:20:49,544 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 28
+2018-10-22 08:20:49,544 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2199ac1a]
+2018-10-22 08:20:49,544 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,545 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,545 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74d05a61] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,545 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,546 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,546 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,547 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 813(Long)
+2018-10-22 08:20:49,561 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 22
+2018-10-22 08:20:49,561 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74d05a61]
+2018-10-22 08:20:49,561 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,561 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-22 08:20:49,562 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59129cbe] was not registered for synchronization because synchronization is not active
+2018-10-22 08:20:49,562 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-22 08:20:49,562 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
+2018-10-22 08:20:49,563 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
+2018-10-22 08:20:49,563 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 836(Long)
+2018-10-22 08:20:49,578 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 28
+2018-10-22 08:20:49,578 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59129cbe]
+2018-10-22 08:20:49,578 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-22 08:20:49,579 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=org.springframework.http.converter.json.MappingJacksonValue@4940298
+2018-10-22 08:20:49,579 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=org.springframework.http.converter.json.MappingJacksonValue@4940298
+2018-10-22 08:20:49,582 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [org.springframework.http.converter.json.MappingJacksonValue@4940298] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@558a69db]
+2018-10-22 08:20:49,582 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'flyfox-rest': assuming HandlerAdapter completed request handling
+2018-10-22 08:20:49,582 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-10-22 10:02:27,835 [http-bio-8081-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'flyfox-rest' processing GET request for [/rest/content/list/89]
+2018-10-22 10:02:27,858 [http-bio-8081-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content/list/89
+2018-10-22 10:02:27,875 [http-bio-8081-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Did not find handler method for [/content/list/89]
+2018-10-22 10:02:27,878 [http-bio-8081-exec-5] [org.springframework.web.servlet.PageNotFound]-[WARN] No mapping found for HTTP request with URI [/rest/content/list/89] in DispatcherServlet with name 'flyfox-rest'
+2018-10-22 10:02:27,879 [http-bio-8081-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-10-22 10:08:03,955 [http-bio-8081-exec-7] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'flyfox-rest' processing GET request for [/rest/content/list/89]
+2018-10-22 10:08:03,955 [http-bio-8081-exec-7] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content/list/89
+2018-10-22 10:08:03,956 [http-bio-8081-exec-7] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Did not find handler method for [/content/list/89]
+2018-10-22 10:08:03,956 [http-bio-8081-exec-7] [org.springframework.web.servlet.PageNotFound]-[WARN] No mapping found for HTTP request with URI [/rest/content/list/89] in DispatcherServlet with name 'flyfox-rest'
+2018-10-22 10:08:03,956 [http-bio-8081-exec-7] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-10-22 10:08:38,647 [http-bio-8081-exec-9] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'flyfox-rest' processing GET request for [/rest/content/list/89]
+2018-10-22 10:08:38,648 [http-bio-8081-exec-9] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content/list/89
+2018-10-22 10:08:38,648 [http-bio-8081-exec-9] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Did not find handler method for [/content/list/89]
+2018-10-22 10:08:38,648 [http-bio-8081-exec-9] [org.springframework.web.servlet.PageNotFound]-[WARN] No mapping found for HTTP request with URI [/rest/content/list/89] in DispatcherServlet with name 'flyfox-rest'
+2018-10-22 10:08:38,648 [http-bio-8081-exec-9] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+]-[DEBUG] http-outgoing-0 >> "Host: 47.107.81.63:8080[\r][\n]"
+2018-10-22 08:33:06,839 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-10-22 08:33:06,840 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.5 (java 1.5)[\r][\n]"
+2018-10-22 08:33:06,840 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-10-22 08:33:06,840 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "[\r][\n]"
+2018-10-22 08:33:06,840 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "username=%E5%BC%A0%E4%B8%89&password=123"
+2018-10-22 08:33:06,852 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-10-22 08:33:06,852 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+2018-10-22 08:33:06,853 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "Content-Type: text/plain;charset=utf-8[\r][\n]"
+2018-10-22 08:33:06,853 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "Content-Length: 28[\r][\n]"
+2018-10-22 08:33:06,853 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "Date: Mon, 22 Oct 2018 00:33:05 GMT[\r][\n]"
+2018-10-22 08:33:06,853 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "[\r][\n]"
+2018-10-22 08:33:06,854 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "username:[0xe5][0xbc][0xa0][0xe4][0xb8][0x89],password:123"
+2018-10-22 08:33:06,860 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+2018-10-22 08:33:06,861 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << Server: Apache-Coyote/1.1
+2018-10-22 08:33:06,861 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << Content-Type: text/plain;charset=utf-8
+2018-10-22 08:33:06,861 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << Content-Length: 28
+2018-10-22 08:33:06,862 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << Date: Mon, 22 Oct 2018 00:33:05 GMT
+2018-10-22 08:33:06,871 [main] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Connection can be kept alive indefinitely
+2018-10-22 08:33:06,879 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection [id: 0][route: {}->http://47.107.81.63:8080] can be kept alive indefinitely
+2018-10-22 08:33:06,880 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection released: [id: 0][route: {}->http://47.107.81.63:8080][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2018-10-22 08:33:06,881 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection manager is shutting down
+2018-10-22 08:33:06,881 [main] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection]-[DEBUG] http-outgoing-0: Close connection
+2018-10-22 08:33:06,881 [main] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection]-[DEBUG] http-outgoing-0: Close connection
+2018-10-22 08:33:06,882 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection manager shut down
+2018-10-22 08:46:24,355 [main] [org.apache.http.client.protocol.RequestAddCookies]-[DEBUG] CookieSpec selected: best-match
+2018-10-22 08:46:24,380 [main] [org.apache.http.client.protocol.RequestAuthCache]-[DEBUG] Auth cache not set in the context
+2018-10-22 08:46:24,384 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection request: [route: {}->http://47.107.81.63:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2018-10-22 08:46:24,420 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection leased: [id: 0][route: {}->http://47.107.81.63:8080][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2018-10-22 08:46:24,425 [main] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Opening connection {}->http://47.107.81.63:8080
+2018-10-22 08:46:24,431 [main] [org.apache.http.impl.conn.HttpClientConnectionOperator]-[DEBUG] Connecting to /47.107.81.63:8080
+2018-10-22 08:46:24,445 [main] [org.apache.http.impl.conn.HttpClientConnectionOperator]-[DEBUG] Connection established 192.168.1.161:14738<->47.107.81.63:8080
+2018-10-22 08:46:24,445 [main] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Executing request POST /httpclient/post.action HTTP/1.1
+2018-10-22 08:46:24,446 [main] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Target auth state: UNCHALLENGED
+2018-10-22 08:46:24,447 [main] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Proxy auth state: UNCHALLENGED
+2018-10-22 08:46:24,450 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 >> POST /httpclient/post.action HTTP/1.1
+2018-10-22 08:46:24,450 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 >> Content-Length: 40
+2018-10-22 08:46:24,450 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2018-10-22 08:46:24,450 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 >> Host: 47.107.81.63:8080
+2018-10-22 08:46:24,451 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 >> Connection: Keep-Alive
+2018-10-22 08:46:24,451 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.5 (java 1.5)
+2018-10-22 08:46:24,451 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-10-22 08:46:24,452 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "POST /httpclient/post.action HTTP/1.1[\r][\n]"
+2018-10-22 08:46:24,452 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "Content-Length: 40[\r][\n]"
+2018-10-22 08:46:24,452 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2018-10-22 08:46:24,452 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "Host: 47.107.81.63:8080[\r][\n]"
+2018-10-22 08:46:24,453 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-10-22 08:46:24,453 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.5 (java 1.5)[\r][\n]"
+2018-10-22 08:46:24,453 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-10-22 08:46:24,453 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "[\r][\n]"
+2018-10-22 08:46:24,453 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "username=%E5%BC%A0%E4%B8%89&password=123"
+2018-10-22 08:46:24,469 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-10-22 08:46:24,469 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+2018-10-22 08:46:24,469 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "Content-Type: text/plain;charset=utf-8[\r][\n]"
+2018-10-22 08:46:24,470 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "Content-Length: 28[\r][\n]"
+2018-10-22 08:46:24,470 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "Date: Mon, 22 Oct 2018 00:46:23 GMT[\r][\n]"
+2018-10-22 08:46:24,470 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "[\r][\n]"
+2018-10-22 08:46:24,470 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "username:[0xe5][0xbc][0xa0][0xe4][0xb8][0x89],password:123"
+2018-10-22 08:46:24,475 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
+2018-10-22 08:46:24,475 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << Server: Apache-Coyote/1.1
+2018-10-22 08:46:24,476 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << Content-Type: text/plain;charset=utf-8
+2018-10-22 08:46:24,476 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << Content-Length: 28
+2018-10-22 08:46:24,476 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << Date: Mon, 22 Oct 2018 00:46:23 GMT
+2018-10-22 08:46:24,481 [main] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Connection can be kept alive indefinitely
+2018-10-22 08:46:24,488 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection [id: 0][route: {}->http://47.107.81.63:8080] can be kept alive indefinitely
+2018-10-22 08:46:24,489 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection released: [id: 0][route: {}->http://47.107.81.63:8080][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2018-10-22 08:46:24,490 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection manager is shutting down
+2018-10-22 08:46:24,490 [main] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection]-[DEBUG] http-outgoing-0: Close connection
+2018-10-22 08:46:24,490 [main] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection]-[DEBUG] http-outgoing-0: Close connection
+2018-10-22 08:46:24,491 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection manager shut down
