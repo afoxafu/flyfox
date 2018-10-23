@@ -5,13 +5,13 @@ var TT = TAOTAO = {
 			return ;
 		}
 		$.ajax({
-			url : "http://47.107.81.63:8085/user/token/" + _ticket,
+			url : "http://localhost:8084/user/token/" + _ticket,
 			dataType : "jsonp",
 			type : "GET",
 			success : function(data){
 				if(data.status == 200){
 					var username = data.data.username;
-					var html = username + "，欢迎来到飞狐！<a href=\"http://47.107.81.63:8080/user/logout.html\" class=\"link-logout\">[退出]</a>";
+					var html = username + "，欢迎来到飞狐！<a href=\"http://localhost:8084s/user/logout.html\" class=\"link-logout\">[退出]</a>";
 					$("#loginbar").html(html);
 				}
 			}
