@@ -1,560 +1,320 @@
-2018-10-22 08:20:48,712 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@124cce67]
-2018-10-22 08:20:48,713 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:48,713 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:48,713 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d93df9a] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:48,714 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:48,731 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:48,731 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:48,732 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 405(Long)
-2018-10-22 08:20:48,746 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-10-22 08:20:48,746 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d93df9a]
-2018-10-22 08:20:48,746 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:48,746 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:48,747 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@677e60c5] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:48,747 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:48,748 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:48,748 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:48,748 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 412(Long)
-2018-10-22 08:20:48,763 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
-2018-10-22 08:20:48,763 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@677e60c5]
-2018-10-22 08:20:48,763 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:48,764 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:48,764 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5230be7f] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:48,765 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:48,765 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:48,765 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:48,766 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 420(Long)
-2018-10-22 08:20:48,777 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-10-22 08:20:48,777 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5230be7f]
-2018-10-22 08:20:48,777 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:48,778 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:48,778 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2405c2b6] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:48,778 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:48,779 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:48,779 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:48,779 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 425(Long)
-2018-10-22 08:20:48,792 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 12
-2018-10-22 08:20:48,793 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2405c2b6]
-2018-10-22 08:20:48,793 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:48,793 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:48,793 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@606a8be4] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:48,794 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:48,794 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:48,794 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:48,795 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 438(Long)
-2018-10-22 08:20:48,808 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
-2018-10-22 08:20:48,808 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@606a8be4]
-2018-10-22 08:20:48,808 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:48,808 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:48,809 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@254609a8] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:48,809 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:48,810 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:48,810 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:48,810 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 439(Long)
-2018-10-22 08:20:48,823 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 16
-2018-10-22 08:20:48,823 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@254609a8]
-2018-10-22 08:20:48,823 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:48,823 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:48,824 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c764a9f] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:48,824 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:48,824 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:48,824 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:48,824 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 456(Long)
-2018-10-22 08:20:48,837 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 10
-2018-10-22 08:20:48,837 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c764a9f]
-2018-10-22 08:20:48,837 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:48,837 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:48,837 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ad1ea84] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:48,838 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:48,838 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:48,838 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:48,838 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 467(Long)
-2018-10-22 08:20:48,852 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-10-22 08:20:48,852 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ad1ea84]
-2018-10-22 08:20:48,852 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:48,852 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:48,852 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6509ec5a] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:48,853 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:48,853 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:48,853 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:48,854 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 474(Long)
-2018-10-22 08:20:48,915 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 11
-2018-10-22 08:20:48,915 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6509ec5a]
-2018-10-22 08:20:48,915 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:48,916 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:48,916 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e6a3d63] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:48,916 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:48,916 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:48,916 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:48,917 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 486(Long)
-2018-10-22 08:20:48,939 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 8
-2018-10-22 08:20:48,939 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e6a3d63]
-2018-10-22 08:20:48,939 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:48,940 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:48,940 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420cdfeb] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:48,940 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:48,941 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:48,941 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:48,941 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 495(Long)
-2018-10-22 08:20:48,957 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 12
-2018-10-22 08:20:48,958 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@420cdfeb]
-2018-10-22 08:20:48,958 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:48,958 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:48,958 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ffc3228] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:48,958 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:48,959 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:48,959 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:48,959 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 496(Long)
-2018-10-22 08:20:48,975 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-10-22 08:20:48,975 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ffc3228]
-2018-10-22 08:20:48,976 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:48,976 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:48,976 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e0e0280] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:48,977 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:48,977 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:48,977 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:48,978 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 503(Long)
-2018-10-22 08:20:48,993 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
-2018-10-22 08:20:48,993 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e0e0280]
-2018-10-22 08:20:48,993 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:48,993 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:48,994 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12b56813] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:48,994 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:48,994 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:48,995 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:48,995 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 509(Long)
-2018-10-22 08:20:49,013 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 2
-2018-10-22 08:20:49,013 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12b56813]
-2018-10-22 08:20:49,014 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,014 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,014 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68b344cc] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,015 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,015 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,015 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,015 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 512(Long)
-2018-10-22 08:20:49,028 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
-2018-10-22 08:20:49,028 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68b344cc]
-2018-10-22 08:20:49,028 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,028 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,028 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ea7a092] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,029 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,029 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,029 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,030 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 516(Long)
-2018-10-22 08:20:49,044 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
-2018-10-22 08:20:49,044 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ea7a092]
-2018-10-22 08:20:49,044 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,045 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,045 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20e42c17] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,045 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,046 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,046 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,046 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 520(Long)
-2018-10-22 08:20:49,059 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-10-22 08:20:49,059 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20e42c17]
-2018-10-22 08:20:49,059 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,059 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,060 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@785849c8] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,060 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,060 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,060 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,061 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 525(Long)
-2018-10-22 08:20:49,073 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
-2018-10-22 08:20:49,073 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@785849c8]
-2018-10-22 08:20:49,074 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,074 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,074 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@8d93987] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,075 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,075 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,075 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,076 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 529(Long)
-2018-10-22 08:20:49,089 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-10-22 08:20:49,090 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@8d93987]
-2018-10-22 08:20:49,090 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,090 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,090 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@138bb487] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,091 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,091 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,091 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,091 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 534(Long)
-2018-10-22 08:20:49,103 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-10-22 08:20:49,103 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@138bb487]
-2018-10-22 08:20:49,103 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,103 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,103 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68d7b639] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,104 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,104 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,104 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,105 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 539(Long)
-2018-10-22 08:20:49,116 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
-2018-10-22 08:20:49,116 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68d7b639]
-2018-10-22 08:20:49,116 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,117 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,117 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cbe55c] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,117 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,117 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,117 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,118 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 543(Long)
-2018-10-22 08:20:49,129 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 2
-2018-10-22 08:20:49,129 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cbe55c]
-2018-10-22 08:20:49,130 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,130 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,130 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40519aea] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,130 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,131 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,131 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,131 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 546(Long)
-2018-10-22 08:20:49,144 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 11
-2018-10-22 08:20:49,144 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40519aea]
-2018-10-22 08:20:49,144 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,144 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,144 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31fdb3b4] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,145 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,145 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,146 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,146 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 558(Long)
-2018-10-22 08:20:49,158 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
-2018-10-22 08:20:49,158 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31fdb3b4]
-2018-10-22 08:20:49,158 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,158 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,158 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9985618] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,158 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,159 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,159 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,159 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 559(Long)
-2018-10-22 08:20:49,171 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 2
-2018-10-22 08:20:49,172 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9985618]
-2018-10-22 08:20:49,172 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,172 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,172 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53d9676] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,173 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,173 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,173 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,173 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 562(Long)
-2018-10-22 08:20:49,185 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-10-22 08:20:49,185 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53d9676]
-2018-10-22 08:20:49,185 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,185 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,185 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a65d946] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,186 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,186 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,186 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,186 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 567(Long)
-2018-10-22 08:20:49,199 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 12
-2018-10-22 08:20:49,199 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a65d946]
-2018-10-22 08:20:49,199 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,200 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,200 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5efd891f] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,200 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,200 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,200 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,201 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 580(Long)
-2018-10-22 08:20:49,214 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
-2018-10-22 08:20:49,214 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5efd891f]
-2018-10-22 08:20:49,214 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,214 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,214 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a27c8f1] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,215 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,215 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,215 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,215 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 581(Long)
-2018-10-22 08:20:49,227 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 9
-2018-10-22 08:20:49,227 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a27c8f1]
-2018-10-22 08:20:49,228 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,228 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,228 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c8230c3] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,228 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,228 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,229 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,229 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 591(Long)
-2018-10-22 08:20:49,245 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 12
-2018-10-22 08:20:49,245 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c8230c3]
-2018-10-22 08:20:49,245 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,245 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,246 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c5e1275] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,246 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,246 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,247 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,247 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 604(Long)
-2018-10-22 08:20:49,259 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 9
-2018-10-22 08:20:49,259 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c5e1275]
-2018-10-22 08:20:49,260 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,260 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,260 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c9774e4] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,260 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,260 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,260 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,261 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 614(Long)
-2018-10-22 08:20:49,274 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 10
-2018-10-22 08:20:49,275 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c9774e4]
-2018-10-22 08:20:49,275 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,275 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,275 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@220c27d7] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,275 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,275 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,276 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,276 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 625(Long)
-2018-10-22 08:20:49,288 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
-2018-10-22 08:20:49,288 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@220c27d7]
-2018-10-22 08:20:49,288 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,288 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,289 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10acb862] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,289 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,289 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,289 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,290 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 633(Long)
-2018-10-22 08:20:49,302 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-10-22 08:20:49,302 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10acb862]
-2018-10-22 08:20:49,302 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,302 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,302 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@187d47c0] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,303 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,303 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,303 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,303 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 634(Long)
-2018-10-22 08:20:49,316 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 13
-2018-10-22 08:20:49,317 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@187d47c0]
-2018-10-22 08:20:49,317 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,317 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,317 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6deab172] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,317 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,317 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,317 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,318 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 648(Long)
-2018-10-22 08:20:49,331 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 11
-2018-10-22 08:20:49,331 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6deab172]
-2018-10-22 08:20:49,331 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,331 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,331 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29e62d7e] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,332 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,332 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,332 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,332 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 660(Long)
-2018-10-22 08:20:49,345 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-10-22 08:20:49,345 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29e62d7e]
-2018-10-22 08:20:49,345 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,345 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,345 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d6456d] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,346 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,346 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,346 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,347 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 667(Long)
-2018-10-22 08:20:49,361 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 15
-2018-10-22 08:20:49,361 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d6456d]
-2018-10-22 08:20:49,362 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,362 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,362 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7332eec0] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,362 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,362 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,363 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,363 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 683(Long)
-2018-10-22 08:20:49,377 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
-2018-10-22 08:20:49,377 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7332eec0]
-2018-10-22 08:20:49,377 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,377 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,377 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b16ecb] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,378 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,378 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,378 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,378 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 691(Long)
-2018-10-22 08:20:49,390 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
-2018-10-22 08:20:49,391 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b16ecb]
-2018-10-22 08:20:49,391 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,391 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,391 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c2230a7] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,392 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,392 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,392 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,392 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 699(Long)
-2018-10-22 08:20:49,405 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-10-22 08:20:49,406 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c2230a7]
-2018-10-22 08:20:49,406 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,406 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,406 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10d35584] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,407 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,407 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,407 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,407 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 700(Long)
-2018-10-22 08:20:49,423 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 10
-2018-10-22 08:20:49,424 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10d35584]
-2018-10-22 08:20:49,424 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,424 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,424 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76e1fd06] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,425 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,425 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,425 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,425 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 711(Long)
-2018-10-22 08:20:49,437 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
-2018-10-22 08:20:49,438 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76e1fd06]
-2018-10-22 08:20:49,438 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,438 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,438 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10b9c6d8] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,439 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,439 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,439 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,439 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 718(Long)
-2018-10-22 08:20:49,451 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
-2018-10-22 08:20:49,451 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10b9c6d8]
-2018-10-22 08:20:49,451 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,451 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,452 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10b4587f] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,452 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,452 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,452 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,453 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 724(Long)
-2018-10-22 08:20:49,464 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 8
-2018-10-22 08:20:49,465 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10b4587f]
-2018-10-22 08:20:49,465 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,465 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,465 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23095d4] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,466 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,466 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,466 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,466 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 733(Long)
-2018-10-22 08:20:49,480 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
-2018-10-22 08:20:49,481 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23095d4]
-2018-10-22 08:20:49,481 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,482 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,482 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1130d18b] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,483 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,483 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,483 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,484 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 739(Long)
-2018-10-22 08:20:49,498 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 9
-2018-10-22 08:20:49,499 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1130d18b]
-2018-10-22 08:20:49,499 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,499 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,499 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ae3a195] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,499 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,500 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,500 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,500 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 749(Long)
-2018-10-22 08:20:49,512 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
-2018-10-22 08:20:49,512 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ae3a195]
-2018-10-22 08:20:49,512 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,512 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,512 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48fe546b] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,513 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,513 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,513 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,513 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 750(Long)
-2018-10-22 08:20:49,527 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 33
-2018-10-22 08:20:49,527 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48fe546b]
-2018-10-22 08:20:49,527 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,527 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,528 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2199ac1a] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,529 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,529 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,529 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,529 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 784(Long)
-2018-10-22 08:20:49,544 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 28
-2018-10-22 08:20:49,544 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2199ac1a]
-2018-10-22 08:20:49,544 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,545 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,545 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74d05a61] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,545 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,546 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,546 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,547 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 813(Long)
-2018-10-22 08:20:49,561 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 22
-2018-10-22 08:20:49,561 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74d05a61]
-2018-10-22 08:20:49,561 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,561 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2018-10-22 08:20:49,562 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59129cbe] was not registered for synchronization because synchronization is not active
-2018-10-22 08:20:49,562 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2018-10-22 08:20:49,562 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d2f2d00] will not be managed by Spring
-2018-10-22 08:20:49,563 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from item_cat WHERE ( parent_id = ? ) 
-2018-10-22 08:20:49,563 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 836(Long)
-2018-10-22 08:20:49,578 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemCatMapper.selectByExample]-[DEBUG] <==      Total: 28
-2018-10-22 08:20:49,578 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59129cbe]
-2018-10-22 08:20:49,578 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2018-10-22 08:20:49,579 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=org.springframework.http.converter.json.MappingJacksonValue@4940298
-2018-10-22 08:20:49,579 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=org.springframework.http.converter.json.MappingJacksonValue@4940298
-2018-10-22 08:20:49,582 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [org.springframework.http.converter.json.MappingJacksonValue@4940298] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@558a69db]
-2018-10-22 08:20:49,582 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'flyfox-rest': assuming HandlerAdapter completed request handling
-2018-10-22 08:20:49,582 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
-2018-10-22 10:02:27,835 [http-bio-8081-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'flyfox-rest' processing GET request for [/rest/content/list/89]
-2018-10-22 10:02:27,858 [http-bio-8081-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content/list/89
-2018-10-22 10:02:27,875 [http-bio-8081-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Did not find handler method for [/content/list/89]
-2018-10-22 10:02:27,878 [http-bio-8081-exec-5] [org.springframework.web.servlet.PageNotFound]-[WARN] No mapping found for HTTP request with URI [/rest/content/list/89] in DispatcherServlet with name 'flyfox-rest'
-2018-10-22 10:02:27,879 [http-bio-8081-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
-2018-10-22 10:08:03,955 [http-bio-8081-exec-7] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'flyfox-rest' processing GET request for [/rest/content/list/89]
-2018-10-22 10:08:03,955 [http-bio-8081-exec-7] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content/list/89
-2018-10-22 10:08:03,956 [http-bio-8081-exec-7] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Did not find handler method for [/content/list/89]
-2018-10-22 10:08:03,956 [http-bio-8081-exec-7] [org.springframework.web.servlet.PageNotFound]-[WARN] No mapping found for HTTP request with URI [/rest/content/list/89] in DispatcherServlet with name 'flyfox-rest'
-2018-10-22 10:08:03,956 [http-bio-8081-exec-7] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
-2018-10-22 10:08:38,647 [http-bio-8081-exec-9] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'flyfox-rest' processing GET request for [/rest/content/list/89]
-2018-10-22 10:08:38,648 [http-bio-8081-exec-9] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content/list/89
-2018-10-22 10:08:38,648 [http-bio-8081-exec-9] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Did not find handler method for [/content/list/89]
-2018-10-22 10:08:38,648 [http-bio-8081-exec-9] [org.springframework.web.servlet.PageNotFound]-[WARN] No mapping found for HTTP request with URI [/rest/content/list/89] in DispatcherServlet with name 'flyfox-rest'
-2018-10-22 10:08:38,648 [http-bio-8081-exec-9] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
-]-[DEBUG] http-outgoing-0 >> "Host: 47.107.81.63:8080[\r][\n]"
-2018-10-22 08:33:06,839 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
-2018-10-22 08:33:06,840 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.5 (java 1.5)[\r][\n]"
-2018-10-22 08:33:06,840 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-2018-10-22 08:33:06,840 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "[\r][\n]"
-2018-10-22 08:33:06,840 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "username=%E5%BC%A0%E4%B8%89&password=123"
-2018-10-22 08:33:06,852 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
-2018-10-22 08:33:06,852 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
-2018-10-22 08:33:06,853 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "Content-Type: text/plain;charset=utf-8[\r][\n]"
-2018-10-22 08:33:06,853 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "Content-Length: 28[\r][\n]"
-2018-10-22 08:33:06,853 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "Date: Mon, 22 Oct 2018 00:33:05 GMT[\r][\n]"
-2018-10-22 08:33:06,853 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "[\r][\n]"
-2018-10-22 08:33:06,854 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "username:[0xe5][0xbc][0xa0][0xe4][0xb8][0x89],password:123"
-2018-10-22 08:33:06,860 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
-2018-10-22 08:33:06,861 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << Server: Apache-Coyote/1.1
-2018-10-22 08:33:06,861 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << Content-Type: text/plain;charset=utf-8
-2018-10-22 08:33:06,861 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << Content-Length: 28
-2018-10-22 08:33:06,862 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << Date: Mon, 22 Oct 2018 00:33:05 GMT
-2018-10-22 08:33:06,871 [main] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Connection can be kept alive indefinitely
-2018-10-22 08:33:06,879 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection [id: 0][route: {}->http://47.107.81.63:8080] can be kept alive indefinitely
-2018-10-22 08:33:06,880 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection released: [id: 0][route: {}->http://47.107.81.63:8080][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
-2018-10-22 08:33:06,881 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection manager is shutting down
-2018-10-22 08:33:06,881 [main] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection]-[DEBUG] http-outgoing-0: Close connection
-2018-10-22 08:33:06,881 [main] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection]-[DEBUG] http-outgoing-0: Close connection
-2018-10-22 08:33:06,882 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection manager shut down
-2018-10-22 08:46:24,355 [main] [org.apache.http.client.protocol.RequestAddCookies]-[DEBUG] CookieSpec selected: best-match
-2018-10-22 08:46:24,380 [main] [org.apache.http.client.protocol.RequestAuthCache]-[DEBUG] Auth cache not set in the context
-2018-10-22 08:46:24,384 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection request: [route: {}->http://47.107.81.63:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
-2018-10-22 08:46:24,420 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection leased: [id: 0][route: {}->http://47.107.81.63:8080][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
-2018-10-22 08:46:24,425 [main] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Opening connection {}->http://47.107.81.63:8080
-2018-10-22 08:46:24,431 [main] [org.apache.http.impl.conn.HttpClientConnectionOperator]-[DEBUG] Connecting to /47.107.81.63:8080
-2018-10-22 08:46:24,445 [main] [org.apache.http.impl.conn.HttpClientConnectionOperator]-[DEBUG] Connection established 192.168.1.161:14738<->47.107.81.63:8080
-2018-10-22 08:46:24,445 [main] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Executing request POST /httpclient/post.action HTTP/1.1
-2018-10-22 08:46:24,446 [main] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Target auth state: UNCHALLENGED
-2018-10-22 08:46:24,447 [main] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Proxy auth state: UNCHALLENGED
-2018-10-22 08:46:24,450 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 >> POST /httpclient/post.action HTTP/1.1
-2018-10-22 08:46:24,450 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 >> Content-Length: 40
-2018-10-22 08:46:24,450 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
-2018-10-22 08:46:24,450 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 >> Host: 47.107.81.63:8080
-2018-10-22 08:46:24,451 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 >> Connection: Keep-Alive
-2018-10-22 08:46:24,451 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.5 (java 1.5)
-2018-10-22 08:46:24,451 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 >> Accept-Encoding: gzip,deflate
-2018-10-22 08:46:24,452 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "POST /httpclient/post.action HTTP/1.1[\r][\n]"
-2018-10-22 08:46:24,452 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "Content-Length: 40[\r][\n]"
-2018-10-22 08:46:24,452 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
-2018-10-22 08:46:24,452 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "Host: 47.107.81.63:8080[\r][\n]"
-2018-10-22 08:46:24,453 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
-2018-10-22 08:46:24,453 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.5 (java 1.5)[\r][\n]"
-2018-10-22 08:46:24,453 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
-2018-10-22 08:46:24,453 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "[\r][\n]"
-2018-10-22 08:46:24,453 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 >> "username=%E5%BC%A0%E4%B8%89&password=123"
-2018-10-22 08:46:24,469 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
-2018-10-22 08:46:24,469 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
-2018-10-22 08:46:24,469 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "Content-Type: text/plain;charset=utf-8[\r][\n]"
-2018-10-22 08:46:24,470 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "Content-Length: 28[\r][\n]"
-2018-10-22 08:46:24,470 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "Date: Mon, 22 Oct 2018 00:46:23 GMT[\r][\n]"
-2018-10-22 08:46:24,470 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "[\r][\n]"
-2018-10-22 08:46:24,470 [main] [org.apache.http.wire]-[DEBUG] http-outgoing-0 << "username:[0xe5][0xbc][0xa0][0xe4][0xb8][0x89],password:123"
-2018-10-22 08:46:24,475 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << HTTP/1.1 200 OK
-2018-10-22 08:46:24,475 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << Server: Apache-Coyote/1.1
-2018-10-22 08:46:24,476 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << Content-Type: text/plain;charset=utf-8
-2018-10-22 08:46:24,476 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << Content-Length: 28
-2018-10-22 08:46:24,476 [main] [org.apache.http.headers]-[DEBUG] http-outgoing-0 << Date: Mon, 22 Oct 2018 00:46:23 GMT
-2018-10-22 08:46:24,481 [main] [org.apache.http.impl.execchain.MainClientExec]-[DEBUG] Connection can be kept alive indefinitely
-2018-10-22 08:46:24,488 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection [id: 0][route: {}->http://47.107.81.63:8080] can be kept alive indefinitely
-2018-10-22 08:46:24,489 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection released: [id: 0][route: {}->http://47.107.81.63:8080][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
-2018-10-22 08:46:24,490 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection manager is shutting down
-2018-10-22 08:46:24,490 [main] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection]-[DEBUG] http-outgoing-0: Close connection
-2018-10-22 08:46:24,490 [main] [org.apache.http.impl.conn.DefaultManagedHttpClientConnection]-[DEBUG] http-outgoing-0: Close connection
-2018-10-22 08:46:24,491 [main] [org.apache.http.impl.conn.PoolingHttpClientConnectionManager]-[DEBUG] Connection manager shut down
+2018-10-23 17:24:22,565 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'redisController' to allow for resolving potential circular references
+2018-10-23 17:24:22,570 [localhost-startStop-1] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean 'redisController': AutowiredFieldElement for private com.flyfox.rest.service.RedisService com.flyfox.rest.controller.RedisController.redisService
+2018-10-23 17:24:22,571 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'redisServiceImpl'
+2018-10-23 17:24:22,571 [localhost-startStop-1] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name 'redisController' to bean named 'redisServiceImpl'
+2018-10-23 17:24:22,574 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'redisController'
+2018-10-23 17:24:22,574 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-10-23 17:24:22,574 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-10-23 17:24:22,574 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-10-23 17:24:22,574 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-10-23 17:24:22,574 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2018-10-23 17:24:22,574 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'mvcContentNegotiationManager'
+2018-10-23 17:24:22,575 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'mvcContentNegotiationManager' to allow for resolving potential circular references
+2018-10-23 17:24:22,601 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'mvcContentNegotiationManager'
+2018-10-23 17:24:22,606 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'mvcContentNegotiationManager'
+2018-10-23 17:24:22,606 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2018-10-23 17:24:22,606 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2018-10-23 17:24:22,615 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0' to allow for resolving potential circular references
+2018-10-23 17:24:22,667 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-10-23 17:24:22,672 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2018-10-23 17:24:22,672 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2018-10-23 17:24:22,673 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#81dfcab'
+2018-10-23 17:24:22,674 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-10-23 17:24:22,674 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-10-23 17:24:22,675 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0' to allow for resolving potential circular references
+2018-10-23 17:24:22,684 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-10-23 17:24:22,797 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-10-23 17:24:22,807 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#81dfcab'
+2018-10-23 17:24:22,811 [localhost-startStop-1] [org.springframework.beans.BeanUtils]-[DEBUG] No property editor [org.springframework.web.context.request.WebRequestInterceptorEditor] found for type org.springframework.web.context.request.WebRequestInterceptor according to 'Editor' suffix convention
+2018-10-23 17:24:22,812 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.web.servlet.handler.MappedInterceptor#0' to allow for resolving potential circular references
+2018-10-23 17:24:22,818 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2018-10-23 17:24:22,819 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2018-10-23 17:24:22,819 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking for request mappings in application context: WebApplicationContext for namespace 'flyfox-rest-servlet': startup date [Tue Oct 23 17:24:22 CST 2018]; parent: Root WebApplicationContext
+2018-10-23 17:24:22,845 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/content/content{contentCategoryId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.flyfox.common.pojo.FlyfoxResult com.flyfox.rest.controller.ContentController.getContentList(java.lang.Long)
+2018-10-23 17:24:22,845 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/itemcat/list],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.flyfox.rest.controller.ItemCatController.getItemCatList(java.lang.String)
+2018-10-23 17:24:22,847 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/item/desc/{itemId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.flyfox.common.pojo.FlyfoxResult com.flyfox.rest.controller.ItemController.getItemDesc(java.lang.Long)
+2018-10-23 17:24:22,847 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/item/param/{itemId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.flyfox.common.pojo.FlyfoxResult com.flyfox.rest.controller.ItemController.getItemParam(java.lang.Long)
+2018-10-23 17:24:22,848 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/item/info/{itemId}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.flyfox.common.pojo.FlyfoxResult com.flyfox.rest.controller.ItemController.getItemBaseInfo(java.lang.Long)
+2018-10-23 17:24:22,848 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[INFO] Mapped "{[/cache/sync/content/{contentCid}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.flyfox.common.pojo.FlyfoxResult com.flyfox.rest.controller.RedisController.contentCacheSync(java.lang.Long)
+2018-10-23 17:24:22,850 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2018-10-23 17:24:22,850 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-10-23 17:24:22,850 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2018-10-23 17:24:22,850 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2018-10-23 17:24:23,513 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0' to allow for resolving potential circular references
+2018-10-23 17:24:23,543 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-10-23 17:24:23,543 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#73daf36c'
+2018-10-23 17:24:23,560 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-10-23 17:24:23,561 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#73daf36c'
+2018-10-23 17:24:23,561 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#6f21165'
+2018-10-23 17:24:23,589 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#6f21165'
+2018-10-23 17:24:23,591 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#30663083'
+2018-10-23 17:24:23,611 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#30663083'
+2018-10-23 17:24:23,611 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#4f6e5dcd'
+2018-10-23 17:24:23,623 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#4f6e5dcd'
+2018-10-23 17:24:23,624 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#1ce05bc0'
+2018-10-23 17:24:23,654 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#1ce05bc0'
+2018-10-23 17:24:23,654 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#2d1a8f13'
+2018-10-23 17:24:23,687 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#2d1a8f13'
+2018-10-23 17:24:23,687 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#31fd8dd2'
+2018-10-23 17:24:23,754 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#31fd8dd2'
+2018-10-23 17:24:23,754 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#226cdb22'
+2018-10-23 17:24:23,756 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#4c7d003a'
+2018-10-23 17:24:23,782 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name '(inner bean)#4c7d003a'
+2018-10-23 17:24:23,787 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#4c7d003a'
+2018-10-23 17:24:23,821 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#226cdb22'
+2018-10-23 17:24:23,822 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#5e2db60a'
+2018-10-23 17:24:23,838 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#5e2db60a'
+2018-10-23 17:24:23,862 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2018-10-23 17:24:23,863 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'flyfox-rest-servlet': startup date [Tue Oct 23 17:24:22 CST 2018]; parent: Root WebApplicationContext
+2018-10-23 17:24:23,943 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2018-10-23 17:24:23,943 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2018-10-23 17:24:23,943 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'mvcUriComponentsContributor'
+2018-10-23 17:24:23,944 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'mvcUriComponentsContributor' to allow for resolving potential circular references
+2018-10-23 17:24:23,950 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#a3e74ad'
+2018-10-23 17:24:23,972 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-10-23 17:24:23,972 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#73daf36c#1'
+2018-10-23 17:24:23,972 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-10-23 17:24:23,973 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#73daf36c#1'
+2018-10-23 17:24:23,973 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#6f21165#1'
+2018-10-23 17:24:23,974 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#6f21165#1'
+2018-10-23 17:24:23,975 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#30663083#1'
+2018-10-23 17:24:23,982 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#30663083#1'
+2018-10-23 17:24:23,982 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#4f6e5dcd#1'
+2018-10-23 17:24:23,984 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#4f6e5dcd#1'
+2018-10-23 17:24:23,984 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#1ce05bc0#1'
+2018-10-23 17:24:23,987 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#1ce05bc0#1'
+2018-10-23 17:24:23,987 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#2d1a8f13#1'
+2018-10-23 17:24:23,997 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#2d1a8f13#1'
+2018-10-23 17:24:23,998 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#31fd8dd2#1'
+2018-10-23 17:24:24,000 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#31fd8dd2#1'
+2018-10-23 17:24:24,000 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#226cdb22#1'
+2018-10-23 17:24:24,001 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#4c7d003a#1'
+2018-10-23 17:24:24,002 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name '(inner bean)#4c7d003a#1'
+2018-10-23 17:24:24,005 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#4c7d003a#1'
+2018-10-23 17:24:24,006 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#226cdb22#1'
+2018-10-23 17:24:24,006 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#5e2db60a#1'
+2018-10-23 17:24:24,008 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#5e2db60a#1'
+2018-10-23 17:24:24,009 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name '(inner bean)#a3e74ad'
+2018-10-23 17:24:24,009 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'flyfox-rest-servlet': startup date [Tue Oct 23 17:24:22 CST 2018]; parent: Root WebApplicationContext
+2018-10-23 17:24:24,010 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning eagerly cached instance of singleton bean 'mvcUriComponentsContributor' that is not fully initialized yet - a consequence of a circular reference
+2018-10-23 17:24:24,012 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#a3e74ad'
+2018-10-23 17:24:24,013 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-10-23 17:24:24,013 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'mvcUriComponentsContributor'
+2018-10-23 17:24:24,013 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'mvcUriComponentsContributor'
+2018-10-23 17:24:24,014 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2018-10-23 17:24:24,014 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2018-10-23 17:24:24,014 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2018-10-23 17:24:24,042 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0' to allow for resolving potential circular references
+2018-10-23 17:24:24,120 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-10-23 17:24:24,120 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#6f21165#2'
+2018-10-23 17:24:24,122 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#6f21165#2'
+2018-10-23 17:24:24,122 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#30663083#2'
+2018-10-23 17:24:24,129 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#30663083#2'
+2018-10-23 17:24:24,129 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#4f6e5dcd#2'
+2018-10-23 17:24:24,131 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#4f6e5dcd#2'
+2018-10-23 17:24:24,131 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#1ce05bc0#2'
+2018-10-23 17:24:24,134 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#1ce05bc0#2'
+2018-10-23 17:24:24,135 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#2d1a8f13#2'
+2018-10-23 17:24:24,145 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#2d1a8f13#2'
+2018-10-23 17:24:24,145 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#31fd8dd2#2'
+2018-10-23 17:24:24,147 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#31fd8dd2#2'
+2018-10-23 17:24:24,202 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#226cdb22#2'
+2018-10-23 17:24:24,203 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#4c7d003a#2'
+2018-10-23 17:24:24,203 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name '(inner bean)#4c7d003a#2'
+2018-10-23 17:24:24,206 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#4c7d003a#2'
+2018-10-23 17:24:24,217 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#226cdb22#2'
+2018-10-23 17:24:24,218 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean '(inner bean)#1976f39'
+2018-10-23 17:24:24,218 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean '(inner bean)#1976f39'
+2018-10-23 17:24:24,220 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2018-10-23 17:24:24,220 [localhost-startStop-1] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver]-[DEBUG] Looking for exception mappings: WebApplicationContext for namespace 'flyfox-rest-servlet': startup date [Tue Oct 23 17:24:22 CST 2018]; parent: Root WebApplicationContext
+2018-10-23 17:24:24,223 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2018-10-23 17:24:24,223 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2018-10-23 17:24:24,223 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2018-10-23 17:24:24,224 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0' to allow for resolving potential circular references
+2018-10-23 17:24:24,228 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2018-10-23 17:24:24,228 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2018-10-23 17:24:24,228 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2018-10-23 17:24:24,237 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0' to allow for resolving potential circular references
+2018-10-23 17:24:24,242 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2018-10-23 17:24:24,242 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2018-10-23 17:24:24,243 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2018-10-23 17:24:24,245 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' to allow for resolving potential circular references
+2018-10-23 17:24:24,260 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2018-10-23 17:24:24,260 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Looking for URL mappings in application context: WebApplicationContext for namespace 'flyfox-rest-servlet': startup date [Tue Oct 23 17:24:22 CST 2018]; parent: Root WebApplicationContext
+2018-10-23 17:24:24,260 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'contentController': no URL paths identified
+2018-10-23 17:24:24,261 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'itemCatController': no URL paths identified
+2018-10-23 17:24:24,261 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'itemController': no URL paths identified
+2018-10-23 17:24:24,261 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'redisController': no URL paths identified
+2018-10-23 17:24:24,261 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2018-10-23 17:24:24,261 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2018-10-23 17:24:24,261 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+2018-10-23 17:24:24,261 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2018-10-23 17:24:24,261 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+2018-10-23 17:24:24,262 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0': no URL paths identified
+2018-10-23 17:24:24,262 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0': no URL paths identified
+2018-10-23 17:24:24,262 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0': no URL paths identified
+2018-10-23 17:24:24,262 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+2018-10-23 17:24:24,262 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.web.servlet.handler.MappedInterceptor#0': no URL paths identified
+2018-10-23 17:24:24,262 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0': no URL paths identified
+2018-10-23 17:24:24,262 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0': no URL paths identified
+2018-10-23 17:24:24,262 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0': no URL paths identified
+2018-10-23 17:24:24,263 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping': no URL paths identified
+2018-10-23 17:24:24,263 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter': no URL paths identified
+2018-10-23 17:24:24,263 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter': no URL paths identified
+2018-10-23 17:24:24,263 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0': no URL paths identified
+2018-10-23 17:24:24,264 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0': no URL paths identified
+2018-10-23 17:24:24,264 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.web.servlet.view.InternalResourceViewResolver#0': no URL paths identified
+2018-10-23 17:24:24,264 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor': no URL paths identified
+2018-10-23 17:24:24,264 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor': no URL paths identified
+2018-10-23 17:24:24,264 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'environment': no URL paths identified
+2018-10-23 17:24:24,264 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'systemProperties': no URL paths identified
+2018-10-23 17:24:24,264 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'systemEnvironment': no URL paths identified
+2018-10-23 17:24:24,264 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'servletConfig': no URL paths identified
+2018-10-23 17:24:24,265 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+2018-10-23 17:24:24,265 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'messageSource': no URL paths identified
+2018-10-23 17:24:24,265 [localhost-startStop-1] [org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping]-[DEBUG] Rejected bean name 'applicationEventMulticaster': no URL paths identified
+2018-10-23 17:24:24,265 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2018-10-23 17:24:24,265 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2018-10-23 17:24:24,265 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2018-10-23 17:24:24,266 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter' to allow for resolving potential circular references
+2018-10-23 17:24:24,271 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2018-10-23 17:24:24,285 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2018-10-23 17:24:24,285 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2018-10-23 17:24:24,285 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter' to allow for resolving potential circular references
+2018-10-23 17:24:24,289 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2018-10-23 17:24:24,289 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-10-23 17:24:24,290 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-10-23 17:24:24,290 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0' to allow for resolving potential circular references
+2018-10-23 17:24:24,297 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-10-23 17:24:24,297 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2018-10-23 17:24:24,297 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2018-10-23 17:24:24,298 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0' to allow for resolving potential circular references
+2018-10-23 17:24:24,309 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2018-10-23 17:24:24,309 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-10-23 17:24:24,309 [localhost-startStop-1] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2018-10-23 17:24:24,310 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2018-10-23 17:24:24,311 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+2018-10-23 17:24:24,311 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+2018-10-23 17:24:24,321 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0' to allow for resolving potential circular references
+2018-10-23 17:24:24,339 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+2018-10-23 17:24:24,339 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-10-23 17:24:24,339 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-10-23 17:24:24,339 [localhost-startStop-1] [org.springframework.web.context.support.XmlWebApplicationContext]-[DEBUG] Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@1357b502]
+2018-10-23 17:24:24,340 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-10-23 17:24:24,341 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+2018-10-23 17:24:24,342 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2018-10-23 17:24:24,347 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2018-10-23 17:24:24,348 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@358f9114]
+2018-10-23 17:24:24,349 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2018-10-23 17:24:24,359 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2018-10-23 17:24:24,359 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@1f860367]
+2018-10-23 17:24:24,359 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2018-10-23 17:24:24,359 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2018-10-23 17:24:24,359 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+2018-10-23 17:24:24,360 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2018-10-23 17:24:24,360 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2018-10-23 17:24:24,360 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2018-10-23 17:24:24,361 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2018-10-23 17:24:24,361 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2018-10-23 17:24:24,361 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2018-10-23 17:24:24,363 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2018-10-23 17:24:24,368 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2018-10-23 17:24:24,368 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@786580b3]
+2018-10-23 17:24:24,369 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+2018-10-23 17:24:24,371 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2018-10-23 17:24:24,383 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2018-10-23 17:24:24,383 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@2e89de1c]
+2018-10-23 17:24:24,383 [localhost-startStop-1] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+2018-10-23 17:24:24,383 [localhost-startStop-1] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+2018-10-23 17:24:24,384 [localhost-startStop-1] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+2018-10-23 17:24:24,384 [localhost-startStop-1] [org.springframework.jndi.JndiTemplate]-[DEBUG] Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2018-10-23 17:24:24,384 [localhost-startStop-1] [org.springframework.jndi.JndiLocatorDelegate]-[DEBUG] Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2018-10-23 17:24:24,384 [localhost-startStop-1] [org.springframework.jndi.JndiTemplate]-[DEBUG] Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2018-10-23 17:24:24,384 [localhost-startStop-1] [org.springframework.jndi.JndiPropertySource]-[DEBUG] JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2018-10-23 17:24:24,385 [localhost-startStop-1] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-10-23 17:24:24,385 [localhost-startStop-1] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-10-23 17:24:24,385 [localhost-startStop-1] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-10-23 17:24:24,385 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Published WebApplicationContext of servlet 'flyfox-rest' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.flyfox-rest]
+2018-10-23 17:24:24,385 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[INFO] FrameworkServlet 'flyfox-rest': initialization completed in 2244 ms
+2018-10-23 17:24:24,394 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Servlet 'flyfox-rest' configured successfully
+2018-10-23 17:25:59,564 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'flyfox-rest' processing GET request for [/rest/content/content89]
+2018-10-23 17:25:59,570 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content/content89
+2018-10-23 17:25:59,576 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.flyfox.common.pojo.FlyfoxResult com.flyfox.rest.controller.ContentController.getContentList(java.lang.Long)]
+2018-10-23 17:25:59,576 [http-bio-8081-exec-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'contentController'
+2018-10-23 17:25:59,577 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/rest/content/content89] is: -1
+2018-10-23 17:25:59,769 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.flyfox.common.pojo.FlyfoxResult@1df70b16
+2018-10-23 17:25:59,769 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.flyfox.common.pojo.FlyfoxResult@1df70b16
+2018-10-23 17:25:59,810 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.flyfox.common.pojo.FlyfoxResult@1df70b16] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@50041320]
+2018-10-23 17:25:59,811 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'flyfox-rest': assuming HandlerAdapter completed request handling
+2018-10-23 17:25:59,811 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-10-23 17:25:59,812 [http-bio-8081-exec-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-10-23 17:26:25,772 [http-bio-8081-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'flyfox-rest' processing GET request for [/rest/content/content89]
+2018-10-23 17:26:25,772 [http-bio-8081-exec-3] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content/content89
+2018-10-23 17:26:25,773 [http-bio-8081-exec-3] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.flyfox.common.pojo.FlyfoxResult com.flyfox.rest.controller.ContentController.getContentList(java.lang.Long)]
+2018-10-23 17:26:25,773 [http-bio-8081-exec-3] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'contentController'
+2018-10-23 17:26:25,773 [http-bio-8081-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/rest/content/content89] is: -1
+2018-10-23 17:26:25,778 [http-bio-8081-exec-3] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.flyfox.common.pojo.FlyfoxResult@7a656619
+2018-10-23 17:26:25,778 [http-bio-8081-exec-3] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.flyfox.common.pojo.FlyfoxResult@7a656619
+2018-10-23 17:26:25,779 [http-bio-8081-exec-3] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.flyfox.common.pojo.FlyfoxResult@7a656619] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@50041320]
+2018-10-23 17:26:25,780 [http-bio-8081-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'flyfox-rest': assuming HandlerAdapter completed request handling
+2018-10-23 17:26:25,780 [http-bio-8081-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-10-23 17:26:39,627 [http-bio-8081-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'flyfox-rest' processing GET request for [/rest/content/content89]
+2018-10-23 17:26:39,627 [http-bio-8081-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content/content89
+2018-10-23 17:26:39,627 [http-bio-8081-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.flyfox.common.pojo.FlyfoxResult com.flyfox.rest.controller.ContentController.getContentList(java.lang.Long)]
+2018-10-23 17:26:39,628 [http-bio-8081-exec-5] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'contentController'
+2018-10-23 17:26:39,628 [http-bio-8081-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/rest/content/content89] is: -1
+2018-10-23 17:26:39,631 [http-bio-8081-exec-5] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.flyfox.common.pojo.FlyfoxResult@61355681
+2018-10-23 17:26:39,631 [http-bio-8081-exec-5] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.flyfox.common.pojo.FlyfoxResult@61355681
+2018-10-23 17:26:39,632 [http-bio-8081-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.flyfox.common.pojo.FlyfoxResult@61355681] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@50041320]
+2018-10-23 17:26:39,632 [http-bio-8081-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'flyfox-rest': assuming HandlerAdapter completed request handling
+2018-10-23 17:26:39,632 [http-bio-8081-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-10-23 17:26:51,871 [http-bio-8081-exec-7] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'flyfox-rest' processing GET request for [/rest/content/content89]
+2018-10-23 17:26:51,871 [http-bio-8081-exec-7] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content/content89
+2018-10-23 17:26:51,871 [http-bio-8081-exec-7] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.flyfox.common.pojo.FlyfoxResult com.flyfox.rest.controller.ContentController.getContentList(java.lang.Long)]
+2018-10-23 17:26:51,872 [http-bio-8081-exec-7] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'contentController'
+2018-10-23 17:26:51,872 [http-bio-8081-exec-7] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/rest/content/content89] is: -1
+2018-10-23 17:26:51,878 [http-bio-8081-exec-7] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.flyfox.common.pojo.FlyfoxResult@51f8c2fa
+2018-10-23 17:26:51,878 [http-bio-8081-exec-7] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.flyfox.common.pojo.FlyfoxResult@51f8c2fa
+2018-10-23 17:26:51,881 [http-bio-8081-exec-7] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.flyfox.common.pojo.FlyfoxResult@51f8c2fa] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@50041320]
+2018-10-23 17:26:51,882 [http-bio-8081-exec-7] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'flyfox-rest': assuming HandlerAdapter completed request handling
+2018-10-23 17:26:51,882 [http-bio-8081-exec-7] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-10-23 17:27:00,156 [http-bio-8081-exec-9] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'flyfox-rest' processing GET request for [/rest/content/content89]
+2018-10-23 17:27:00,157 [http-bio-8081-exec-9] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content/content89
+2018-10-23 17:27:00,157 [http-bio-8081-exec-9] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.flyfox.common.pojo.FlyfoxResult com.flyfox.rest.controller.ContentController.getContentList(java.lang.Long)]
+2018-10-23 17:27:00,157 [http-bio-8081-exec-9] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'contentController'
+2018-10-23 17:27:00,157 [http-bio-8081-exec-9] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/rest/content/content89] is: -1
+2018-10-23 17:27:00,160 [http-bio-8081-exec-9] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.flyfox.common.pojo.FlyfoxResult@62b1f9de
+2018-10-23 17:27:00,160 [http-bio-8081-exec-9] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.flyfox.common.pojo.FlyfoxResult@62b1f9de
+2018-10-23 17:27:00,161 [http-bio-8081-exec-9] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.flyfox.common.pojo.FlyfoxResult@62b1f9de] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@50041320]
+2018-10-23 17:27:00,161 [http-bio-8081-exec-9] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'flyfox-rest': assuming HandlerAdapter completed request handling
+2018-10-23 17:27:00,161 [http-bio-8081-exec-9] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-10-23 17:27:14,783 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'flyfox-rest' processing GET request for [/rest/item/info/1145177]
+2018-10-23 17:27:14,784 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /item/info/1145177
+2018-10-23 17:27:14,784 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.flyfox.common.pojo.FlyfoxResult com.flyfox.rest.controller.ItemController.getItemBaseInfo(java.lang.Long)]
+2018-10-23 17:27:14,784 [http-bio-8081-exec-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemController'
+2018-10-23 17:27:14,785 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/rest/item/info/1145177] is: -1
+2018-10-23 17:27:14,798 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-10-23 17:27:14,812 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1dc5e353] was not registered for synchronization because synchronization is not active
+2018-10-23 17:27:14,822 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-10-23 17:27:14,896 [http-bio-8081-exec-1] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-1} inited
+2018-10-23 17:27:16,833 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@4f66d02f] will not be managed by Spring
+2018-10-23 17:27:16,838 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemMapper.selectByPrimaryKey]-[DEBUG] ==>  Preparing: select id, title, sell_point, price, num, barcode, image, cid, status, created, updated from item where id = ? 
+2018-10-23 17:27:16,876 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemMapper.selectByPrimaryKey]-[DEBUG] ==> Parameters: 1145177(Long)
+2018-10-23 17:27:16,915 [http-bio-8081-exec-1] [com.flyfox.mapper.ItemMapper.selectByPrimaryKey]-[DEBUG] <==      Total: 1
+2018-10-23 17:27:16,916 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1dc5e353]
+2018-10-23 17:27:16,916 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-10-23 17:27:16,929 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.flyfox.common.pojo.FlyfoxResult@682efb74
+2018-10-23 17:27:16,929 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.flyfox.common.pojo.FlyfoxResult@682efb74
+2018-10-23 17:27:16,932 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.flyfox.common.pojo.FlyfoxResult@682efb74] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@50041320]
+2018-10-23 17:27:16,932 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'flyfox-rest': assuming HandlerAdapter completed request handling
+2018-10-23 17:27:16,932 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-10-23 17:27:18,760 [http-bio-8081-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'flyfox-rest' processing GET request for [/rest/item/info/1145177]
+2018-10-23 17:27:18,761 [http-bio-8081-exec-3] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /item/info/1145177
+2018-10-23 17:27:18,761 [http-bio-8081-exec-3] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.flyfox.common.pojo.FlyfoxResult com.flyfox.rest.controller.ItemController.getItemBaseInfo(java.lang.Long)]
+2018-10-23 17:27:18,761 [http-bio-8081-exec-3] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemController'
+2018-10-23 17:27:18,762 [http-bio-8081-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/rest/item/info/1145177] is: -1
+2018-10-23 17:27:18,770 [http-bio-8081-exec-3] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.flyfox.common.pojo.FlyfoxResult@75c09f5c
+2018-10-23 17:27:18,770 [http-bio-8081-exec-3] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.flyfox.common.pojo.FlyfoxResult@75c09f5c
+2018-10-23 17:27:18,771 [http-bio-8081-exec-3] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.flyfox.common.pojo.FlyfoxResult@75c09f5c] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@50041320]
+2018-10-23 17:27:18,771 [http-bio-8081-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'flyfox-rest': assuming HandlerAdapter completed request handling
+2018-10-23 17:27:18,771 [http-bio-8081-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
